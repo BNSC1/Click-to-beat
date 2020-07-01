@@ -1,5 +1,4 @@
-import numpy as np, math, matplotlib.pyplot as plt, pygame, time, threading
-from pygame.sprite import Sprite
+import numpy as np, math, matplotlib.pyplot as plt, pygame
 np.set_printoptions(threshold=np.inf)
 #pip install pygame 
 
