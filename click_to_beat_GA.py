@@ -33,6 +33,9 @@ def showTrainrate():
     plt.clf()
     plt.plot(best_fitness_array)    
     plt.grid()
+    plt.title('Train Rate')
+    plt.ylabel('Hiterror')
+    plt.xlabel('Generation')
     plt.pause(0.001)
 def loopRound():
     global chromosome, generation ,fitness_array, best_fitness_array, best_hiterror, hitcursor_array,hiterror,cursorcolor,best_cursor
