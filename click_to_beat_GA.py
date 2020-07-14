@@ -6,7 +6,7 @@ np.set_printoptions(threshold=np.inf)
 pygame.mixer.pre_init(frequency=44100, size=-16, channels=2, buffer=512)
 pygame.mixer.init()
 pygame.init()
-screen = pygame.display.set_mode([640,200]);fps=60 #Display
+screen = pygame.display.set_mode([640,200]);fps=60 # Display
 cursorcolor=(160,160,255);black=(0,0,0);errorbarcolor=(255,255,255);lastcursorcolor=(80,80,128);bestcursorcolor=(0,128,0)
 screen.fill(black)
 pygame.display.set_caption(u'Bootleg osu! GA')
